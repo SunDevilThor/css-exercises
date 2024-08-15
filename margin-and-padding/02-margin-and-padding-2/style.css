@@ -7,21 +7,36 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* border: solid white;  CHEATING - BUT THE PADDING BELOW FIXED THIS */
+  padding: 8px; 
 }
 
 .title {
   background: #e3f4ff;
+  margin: 10px;
+  font-size: 20px; 
+  padding: 10px; 
+
 }
 
 .content {
   background: #e3f4ff;
+  margin: 10px 10px 10px 10px; 
+  padding: 10px; 
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 10px;
+  padding: 8px; 
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px; 
+  display: block; 
+  text-align: center; 
+  margin: 0 auto; 
 }
